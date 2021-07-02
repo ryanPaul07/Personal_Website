@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
 import './App.css';
+import Nav from './components/Nav';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
-function App() {
+import {BrowserRouter as Router, Switch, Route, Redirect, withRouter} from 'react-router-dom';
+
+
+function App({history}) {
+  let urlPath = window.location.pathname.split('/')[1];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      { urlPath == "" || urlPath == "about" || urlPath == "projects" || urlPath == "contact" 
+      ?
+          <Router> 
+            <Nav />
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </Router>
+      : 
+        <Router>
+          <Switch>
+            <Route path="/404" component={NotFound} />
+            <Redirect from="*" to="/404"/>
+          </Switch>
+        </Router>
+      }
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
