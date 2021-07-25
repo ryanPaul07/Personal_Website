@@ -77,9 +77,9 @@ nav {
 .card-styling {
   background-color: #fbf7eb !important;
   box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 0%), 0px 1px 1px 0px rgb(0 0 0 / 0%), 0px 1px 3px 0px rgb(0 0 0 / 8%) !important;
-  min-width: 30rem;
+  /* min-width: 30rem; */
   max-width: 30rem;
-  min-height: 18.5rem;
+  /* min-height: 18.5rem; */
   max-height: 18.5rem;
   margin: 10px 10px 10px 10px;
   position: relative;
@@ -109,8 +109,8 @@ nav {
 
 .card-img-styling {
   display: inline-block;
-  min-width: 28rem;
-  max-width: 28rem;
+  /* min-width: 28rem; */
+  max-width: 100%;
 }
 
 .card-content-styling {
