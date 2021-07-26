@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 
-import {BrowserRouter as Router, Switch, Route, Redirect, withRouter} from 'react-router-dom';
+import {HashRouter as Router, BrowserRouter, Switch, Route, Redirect, withRouter} from 'react-router-dom';
 
 
 function App({history}) {
