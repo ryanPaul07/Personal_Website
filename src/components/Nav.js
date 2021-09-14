@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import '../App.css';
 
@@ -12,7 +12,7 @@ import Tab from '@material-ui/core/Tab';
 import { style } from '@material-ui/system';
 import Typography from '@material-ui/core/Typography';
 
-let NavColor = ["#6c83ea","#e6695f","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling
+let NavColor = ["#6c83ea","#e6695f","#85d582","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling
 
 function Nav(props) {
   const navStyle = {
@@ -59,6 +59,29 @@ function Nav(props) {
     },
   }))((props) => <Tab disableRipple {...props} />);
 
+
+  useEffect(() => {
+    var page = window.location.href.split('/');
+
+    switch(page[page.length-1]) {
+      case 'home':
+        setValue(0);
+        break;
+      case 'projects':
+        setValue(1);
+        break;
+      case 'wtr':
+        setValue(2);
+        break;
+      case 'contact':
+        setValue(3);
+        break;
+      default:
+
+    }
+
+  }, [])
+
   return (
     <div>
         {/* <Tabs value={value} onChange={handleChange} TabIndicatorProps={{ style: { backgroundColor: '#635ee7' }}}>
@@ -72,6 +95,7 @@ function Nav(props) {
           <StyledTab label="Home" name="ryanpaul" to="/" component={Link} />
           {/* <StyledTab label="About" to="/about" component={Link}/> */}
           <StyledTab label="Projects" to="/projects" component={Link}/>
+          <StyledTab label="WTR" to="/wtr" component={Link}/>
           <StyledTab label="Contact" to="/contact" component={Link}/>
             {/* <Button style={{justifySelf: 'flex-end', backgroundColor: '#e6695f', color: '#fffcf7', height: '35px', margin: '10px 0px 0px 0px'}}>Resume</Button> */}
         </StyledTabs>

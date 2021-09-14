@@ -6,16 +6,18 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import WTR from './components/WTR';
 
 import {HashRouter as Router, BrowserRouter, Switch, Route, Redirect, withRouter} from 'react-router-dom';
 
 
 function App({history}) {
-  let urlPath = window.location.pathname.split('/')[1];
+  let urlPath = window.location.href.split('/');
+  let path = urlPath[urlPath.length-1]
 
   return (
     <div className="App">
-      { urlPath == "" || urlPath == "about" || urlPath == "projects" || urlPath == "contact" 
+      { path == "" || path == "about" || path == "projects" || path == "contact" || path == "wtr"
       ?
           <Router> 
             <Nav />
@@ -23,6 +25,7 @@ function App({history}) {
             <Route path="/" exact component={Home}/>
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
+            <Route path="/wtr" component={WTR} />
             <Route path="/contact" component={Contact} />
           </Switch>
         </Router>

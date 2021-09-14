@@ -74,6 +74,13 @@ nav {
 
 }
 
+.wtr-heading-styling {
+  font-weight: bold;
+  font-style: italic;
+  color: #f5a4a4;
+  padding: 15px 0 5px 0;
+}
+
 .card-styling {
   background-color: #fbf7eb !important;
   box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 0%), 0px 1px 1px 0px rgb(0 0 0 / 0%), 0px 1px 3px 0px rgb(0 0 0 / 8%) !important;
