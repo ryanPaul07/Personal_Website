@@ -123,6 +123,14 @@ function WTR() {
         languages as well. Most of the projects I worked on were in React or Node and I also got the chance 
         to work on some SQL as well. This experience will be great for the future as now I feel more confident 
         and comfortable working with these languages.
+
+        Finally, I also wanted to improve my communication skills as this is an area, I still feel like I am 
+        lacking in. Working at Kenna allowed me to reach this goal and open-up more as I always had the opportunity
+        to work on different projects with new people. Having the experience of working with many different people
+        naturally helped me improve my communication skills and my overall soft skills as I was always in 
+        conversation with different people throughout my internship. I believe that this skill will be very 
+        important for me in the future as being able to express myself and communicate my concerns effectively 
+        will allow me to become a better programmer. 
         <br/>
         <div className="wtr-heading-styling">Project</div>
         I worked on various projects throughout my 8-month term however, I want to highlight my contributions 
@@ -144,14 +152,6 @@ function WTR() {
         Furthermore, the app can also be used for many other similar websites as a template since the data is so 
         dynamic. Working through this project allowed me to work with a lot of data and learn how to manage and 
         present that data is a user friendly fassion. 
-
-        Finally, I also wanted to improve my communication skills as this is an area, I still feel like I am 
-        lacking in. Working at Kenna allowed me to reach this goal and open-up more as I always had the opportunity
-        to work on different projects with new people. Having the experience of working with many different people
-        naturally helped me improve my communication skills and my overall soft skills as I was always in 
-        conversation with different people throughout my internship. I believe that this skill will be very 
-        important for me in the future as being able to express myself and communicate my concerns effectively 
-        will allow me to become a better programmer. 
         <br/>
         <div className="wtr-heading-styling">Conclusion</div>
         Overall, my time spent at Kenna allowed me to greatly improve my skills as a developer and as a person. 
