@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
+import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 
 function Contact() {
   return(

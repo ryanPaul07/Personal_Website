@@ -12,7 +12,10 @@ import Tab from '@material-ui/core/Tab';
 import { style } from '@material-ui/system';
 import Typography from '@material-ui/core/Typography';
 
-let NavColor = ["#6c83ea","#e6695f","#FFE24D","#85d582","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling
+let NavColor = ["#1c36ad","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
+
+// dark blue #1c36ad
+// dark red #c11717
 
 function Nav(props) {
   const navStyle = {
@@ -51,7 +54,7 @@ function Nav(props) {
   
   const StyledTab = withStyles((theme) => ({
     root: {
-      fontFamily: `'Lato', sans-serif`,
+      color: NavColor[value],
       '&:focus': {
         opacity: 1,
       },
@@ -97,9 +100,9 @@ function Nav(props) {
           <StyledTab label="Home" name="ryanpaul" to="/" component={Link} />
           {/* <StyledTab label="About" to="/about" component={Link}/> */}
           <StyledTab label="Projects" to="/projects" component={Link}/>
-          <StyledTab label="Design" to="/design" component={Link}/>
+          {/* <StyledTab label="Design" to="/design" component={Link}/>
           <StyledTab label="WTR" to="/wtr" component={Link}/>
-          <StyledTab label="Contact" to="/contact" component={Link}/>
+          <StyledTab label="Contact" to="/contact" component={Link}/> */}
             {/* <Button style={{justifySelf: 'flex-end', backgroundColor: '#e6695f', color: '#fffcf7', height: '35px', margin: '10px 0px 0px 0px'}}>Resume</Button> */}
         </StyledTabs>
         

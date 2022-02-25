@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 35px;
-  background-color: #f4e4c9; 
+  /* background-color: #f4e4c9;  */
   transition: background-color 1s ease-in-out;
 }
 
@@ -42,7 +42,7 @@ nav {
 .page-styling {
   display: flex;
   flex-direction: column;
-  margin: 20px 0px 20px 0px;
+  margin: 50px 0px 20px 0px;
 }
 
 .sub-page-styling {
@@ -70,7 +70,8 @@ nav {
 .main-heading {
   font-size: 3rem;
   font-weight: bold;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-family: 'IBM Plex Serif', serif;
 }
 
 .main-sub-heading {
@@ -86,7 +87,7 @@ nav {
 
 .card-styling {
   border-radius: 0px !important;
-  background-color: #fbf7eb !important;
+  background-color: #fff5f5 !important;
   box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 0%), 0px 1px 1px 0px rgb(0 0 0 / 0%), 0px 1px 3px 0px rgb(0 0 0 / 8%) !important;
   /* min-width: 30rem; */
   max-width: 27rem;
@@ -129,12 +130,7 @@ nav {
   border-bottom: 2px solid #e6695f
 }
 
-.card-view {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-}
+
 
 .card-img-styling {
   display: inline-block;
@@ -145,7 +141,7 @@ nav {
 .card-content-styling {
   font-size: 1rem;
   font-weight: bold;
-  color: #e6695f;
+  color: #cd3434;
 }
 
 .Design {
@@ -167,10 +163,84 @@ hr.project-line {
   padding: 0;
 }
 
+.icon-design:hover {
+  cursor: pointer;
+}
 
-#home-page {
+
+@media (max-width: 954px) {
+  .card-view {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 955px) {
+  .card-view {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  /* centered */
+  .home-page-sub-heading {
+    margin: 20px 0 10px 0;
+    color: #6c83ea;
+    text-align: center;
+  }
+
+  #home-page-icons {
+    color: #abb9f4;
+    display: flex;
+    margin: 10px 0 25px 0;
+    font-size: 0.9em;
+    justify-content: center;
+  }
+
+  #sub-text {
+    font-size: 22px;
+  }
+
+  .home-page-sub-image {
+    margin-bottom: 50px;
+  }
+  
+}
+
+@media (min-width: 801px) {
+  /* 50-50 */
+  .home-page-sub-heading {
+    margin: 20px 0 10px 0;
+    color: #6c83ea;
+    width: 50%;
+  }
+
+  #home-page-icons {
+    color: #abb9f4;
+    display: flex;
+    margin: 10px 0 25px 0;
+    font-size: 0.9em;
+  }
+
+  #sub-text {
+    font-size: 22px; 
+    margin: 0 20px 0 0;
+  }
+
+  .home-page-sub-image {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+}
+
+/* #home-page {
   display: flex;
   justify-content: center;
   align-items: center; 
   height: 80vh;
-}
+} */
