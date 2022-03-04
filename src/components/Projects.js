@@ -3,31 +3,51 @@ import { Container, Card, CardContent } from '@material-ui/core';
 import projectMovie from '../resources/Movie-App.gif';
 import projectDiscoverTracks from '../resources/Discover-Tracks-App.gif';
 import projectDesignComparison from '../resources/designComp.gif';
+import projectShopifyChallenge from '../resources/shopifyChallenge.gif'
 
 var projects = [{
     link: "https://github.com/ryanPaul07/MovieManager",
     languages: "REACT * BOOTSTRAP * omdbAPI",
     imgSRC: projectMovie,
-    alt: "Movie Search Project"
+    alt: "Movie Search Project",
+    backgroundColour: "#fff5f5",
+    fontColour: "#cd3434",
+    disabled: false
   },
   {
     link: "https://github.com/ryanPaul07/discovertracks",
     languages: "REACT * Spotify API * Tumblr API * OAuth 2.0",
     imgSRC: projectDiscoverTracks,
-    alt: "Discover Tracks Project"
+    alt: "Discover Tracks Project",
+    backgroundColour: "#fff5f5",
+    fontColour: "#cd3434",
+    disabled: false
   },
   {
     link: "https://www.behance.net/gallery/138564749/Flat-vs-Claymorphism-vs-Neumorphism?",
     languages: "Design * UI/UX * HCI",
     imgSRC: projectDesignComparison,
-    alt: "Flat vs Claymorphism vs Neumorphism"
+    alt: "Flat vs Claymorphism vs Neumorphism",
+    backgroundColour: "#fff5f5",
+    fontColour: "#cd3434",
+    disabled: false
+  },
+  {
+    link: "",
+    languages: "Shopify Design Challenge * Wireframe (LOCKED)",
+    imgSRC: projectShopifyChallenge,
+    alt: "Shopify Design Challenge",
+    backgroundColour: "#e9e3e3",
+    fontColour: "#6a6565",
+    disabled: true
   }
 ]
 
 function Projects() {
 
   const showProject = (project) => {
-    window.open(project.link);
+    if(!project.disabled)
+      window.open(project.link);
   }
 
   return (
@@ -43,10 +63,10 @@ function Projects() {
         <div className="card-view" style={{justifyContent: "center"}}>
           {
             projects.map((project, i)=> {
-              return <Card key={i} className="card-styling" onClick={()=> showProject(project)}>
-                <CardContent className="card-box-styling">
+              return <Card key={i} className="card-styling" style={{backgroundColor: project.backgroundColour, pointerEvents: project.disabled ? 'none' : 'auto'}} onClick={()=> showProject(project)}>
+                <CardContent>
                   <img className="card-img-styling" src={project.imgSRC} alt={project.alt}/>
-                  <p className="card-content-styling">{project.languages}</p>
+                  <p className="card-content-styling" style={{color: project.fontColour}}>{project.languages}</p>
                 </CardContent>
               </Card>
             })
