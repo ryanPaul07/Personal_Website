@@ -3,7 +3,7 @@ import { Container, Card, CardContent } from '@material-ui/core';
 import projectMovie from '../resources/Movie-App.gif';
 import projectDiscoverTracks from '../resources/Discover-Tracks-App.gif';
 import projectDesignComparison from '../resources/designComp.gif';
-import projectShopifyChallenge from '../resources/shopifyChallenge.gif'
+import projectShopifyChallenge from '../resources/shopifyDesignChallenge.gif'
 
 var projects = [{
     link: "https://github.com/ryanPaul07/MovieManager",
@@ -33,15 +33,19 @@ var projects = [{
     disabled: false
   },
   {
-    link: "",
-    languages: "Shopify Design Challenge * Wireframe (LOCKED)",
+    link: "https://www.behance.net/gallery/139533443/Shopify-Design-Challenge",
+    languages: "Shopify Design Challenge * Wireframe",
     imgSRC: projectShopifyChallenge,
     alt: "Shopify Design Challenge",
-    backgroundColour: "#e9e3e3",
-    fontColour: "#6a6565",
-    disabled: true
+    backgroundColour: "#fff5f5",
+    fontColour: "#cd3434",
+    disabled: false
   }
 ]
+
+// disabled colours
+// backgroundColour: "#e9e3e3",
+// fontColour: "#6a6565",
 
 function Projects() {
 
@@ -57,7 +61,6 @@ function Projects() {
         <div style={{margin: "20px 0 20px 0"}}>
           <p style={{color: '#cd3434', fontSize:"22px"}}>
           Here are some of the projects I’ve worked on, however all my other projects are available on <a className="project-github-link" href="https://github.com/ryanPaul07" target="_blank" rel="noopener noreferrer" style={{color: '#c11717', fontFamily: 'IBM Plex Serif', fontWeight: "bold" ,textDecoration: 'none'}}>Github</a> 
-           . Design website coming soom :o
           </p>
         </div>
         <div className="card-view" style={{justifyContent: "center"}}>
