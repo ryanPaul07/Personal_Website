@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b30c41a1de3be97edb31b6f33368c75f",
+    "revision": "e0db50a735a5c2a5cc1aff0097349578",
     "url": "/index.html"
   },
   {
-    "revision": "96075ad6d7f6007c11eb",
+    "revision": "c034bd5b6406455f4dbf",
     "url": "/static/css/main.2fdc3149.chunk.css"
   },
   {
-    "revision": "b10acde04d6b72a381a3",
-    "url": "/static/js/2.67921a94.chunk.js"
+    "revision": "7e558a040a331e98a49a",
+    "url": "/static/js/2.47c03bfc.chunk.js"
   },
   {
     "revision": "6ef57ea73f859e79d7f696b27898a6e5",
-    "url": "/static/js/2.67921a94.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.47c03bfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96075ad6d7f6007c11eb",
-    "url": "/static/js/main.96bae64e.chunk.js"
+    "revision": "c034bd5b6406455f4dbf",
+    "url": "/static/js/main.c729cdbb.chunk.js"
   },
   {
     "revision": "506adfa26ad76816c4a2",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0b980d3a78cc1516b5a9b5da2830e692",
     "url": "/static/media/SocisDesign(Mac).0b980d3a.png"
+  },
+  {
+    "revision": "4134f082d96f879bfb79f948a1eda14a",
+    "url": "/static/media/ZoomChat.4134f082.png"
   },
   {
     "revision": "ec4989c0a741890fa54034f412d14094",
