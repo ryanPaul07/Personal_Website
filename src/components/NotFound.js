@@ -1,5 +1,5 @@
-import React, {useEffect} from 'react';
-import { Container } from '@material-ui/core';
+import React from 'react';
+// import { Container } from '@material-ui/core';
 
 function NotFound() {
 console.log('reahced not found s');

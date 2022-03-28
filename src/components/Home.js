@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { Container, Card, CardContent, Button } from '@material-ui/core';
-import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin, AiOutlineMail, AiOutlineEnter } from "react-icons/ai";
+import { Container } from '@material-ui/core';
+import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 import { Tile } from 'carbon-components-react';
 import image from '../resources/blueandyellow.png'
 import { animated, useSpring } from 'react-spring';

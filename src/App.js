@@ -1,15 +1,15 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
-import About from './components/About';
+// import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
 import NotFound from './components/NotFound';
-import WTR from './components/WTR';
-import Design from './components/Design';
+// import WTR from './components/WTR';
+// import Design from './components/Design';
 
-import {HashRouter as Router, BrowserRouter, Switch, Route, Redirect, withRouter} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route, Redirect, withRouter} from 'react-router-dom';
 
 
 function App({history}) {

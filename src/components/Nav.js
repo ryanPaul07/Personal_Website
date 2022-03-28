@@ -2,15 +2,15 @@ import React, {useEffect} from 'react';
 
 import '../App.css';
 
-import { makeStyles, withStyles } from '@material-ui/core/styles'
+import { withStyles } from '@material-ui/core/styles'
 import { Link } from 'react-router-dom';
-import Paper from '@material-ui/core/Paper';
-import AppBar from '@material-ui/core/AppBar';
+// import Paper from '@material-ui/core/Paper';
+// import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
-import { Button } from '@material-ui/core';
+// import { Button } from '@material-ui/core';
 import Tab from '@material-ui/core/Tab';
-import { style } from '@material-ui/system';
-import Typography from '@material-ui/core/Typography';
+// import { style } from '@material-ui/system';
+// import Typography from '@material-ui/core/Typography';
 
 let NavColor = ["#1c36ad","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
 
@@ -18,10 +18,10 @@ let NavColor = ["#1c36ad","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yello
 // dark red #c11717
 
 function Nav(props) {
-  const navStyle = {
-    //textDecoration: "none",
-    //color: "white"
-  };
+  // const navStyle = {
+  //   //textDecoration: "none",
+  //   //color: "white"
+  // };
 
   const [value, setValue] = React.useState(0);
 
@@ -29,13 +29,13 @@ function Nav(props) {
     setValue(newValue);
   };
 
-  const getStyle = theme => ({
-    mainIndicator: {
-      width: 40,
-      display: "flex",
-      justtifyContent: "center"
-    },
-  });
+  // const getStyle = theme => ({
+  //   mainIndicator: {
+  //     width: 40,
+  //     display: "flex",
+  //     justtifyContent: "center"
+  //   },
+  // });
 
 
   const StyledTabs = withStyles({
@@ -71,9 +71,6 @@ function Nav(props) {
         break;
       case 'projects':
         setValue(1);
-        break;
-      case 'projects':
-        setValue(2);
         break;
       case 'wtr':
         setValue(3);
