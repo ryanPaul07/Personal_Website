@@ -1,32 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fdc3149.chunk.css",
-    "main.js": "/static/js/main.c729cdbb.chunk.js",
-    "main.js.map": "/static/js/main.c729cdbb.chunk.js.map",
+    "main.css": "/static/css/main.d8c29aa0.chunk.css",
+    "main.js": "/static/js/main.4f9ec6e6.chunk.js",
+    "main.js.map": "/static/js/main.4f9ec6e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c34c0ec6.js",
     "runtime-main.js.map": "/static/js/runtime-main.c34c0ec6.js.map",
-    "static/js/2.47c03bfc.chunk.js": "/static/js/2.47c03bfc.chunk.js",
-    "static/js/2.47c03bfc.chunk.js.map": "/static/js/2.47c03bfc.chunk.js.map",
+    "static/js/2.b927cd61.chunk.js": "/static/js/2.b927cd61.chunk.js",
+    "static/js/2.b927cd61.chunk.js.map": "/static/js/2.b927cd61.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ff870487ccbfe5014b64506136985054.js": "/precache-manifest.ff870487ccbfe5014b64506136985054.js",
+    "precache-manifest.699571f3148a6fd7b1436b85f5ccddbe.js": "/precache-manifest.699571f3148a6fd7b1436b85f5ccddbe.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2fdc3149.chunk.css.map": "/static/css/main.2fdc3149.chunk.css.map",
-    "static/js/2.47c03bfc.chunk.js.LICENSE.txt": "/static/js/2.47c03bfc.chunk.js.LICENSE.txt",
-    "static/media/Apathy.png": "/static/media/Apathy.4c1fa754.png",
+    "static/css/main.d8c29aa0.chunk.css.map": "/static/css/main.d8c29aa0.chunk.css.map",
+    "static/js/2.b927cd61.chunk.js.LICENSE.txt": "/static/js/2.b927cd61.chunk.js.LICENSE.txt",
     "static/media/Discover-Tracks-App.gif": "/static/media/Discover-Tracks-App.dd95cef9.gif",
     "static/media/Movie-App.gif": "/static/media/Movie-App.c255f653.gif",
-    "static/media/SocisDesign(Mac).png": "/static/media/SocisDesign(Mac).0b980d3a.png",
     "static/media/ZoomChat.png": "/static/media/ZoomChat.4134f082.png",
-    "static/media/bean.png": "/static/media/bean.ec4989c0.png",
     "static/media/blueandyellow.png": "/static/media/blueandyellow.1521b6f1.png",
     "static/media/designComp.gif": "/static/media/designComp.a17392f7.gif",
-    "static/media/ryan.png": "/static/media/ryan.a0cbc5ad.png",
     "static/media/shopifyDesignChallenge.gif": "/static/media/shopifyDesignChallenge.042dea3f.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c34c0ec6.js",
-    "static/js/2.47c03bfc.chunk.js",
-    "static/css/main.2fdc3149.chunk.css",
-    "static/js/main.c729cdbb.chunk.js"
+    "static/js/2.b927cd61.chunk.js",
+    "static/css/main.d8c29aa0.chunk.css",
+    "static/js/main.4f9ec6e6.chunk.js"
   ]
 }
