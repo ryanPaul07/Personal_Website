@@ -5,6 +5,7 @@ import projectDiscoverTracks from '../resources/Discover-Tracks-App.gif';
 import projectDesignComparison from '../resources/designComp.gif';
 import projectShopifyChallenge from '../resources/shopifyDesignChallenge.gif';
 import zoomChatCaseStudy from '../resources/ZoomChat.png';
+import figmaPrototype from '../resources/FigmaAppPrototype.png'
 import { animated, useSpring } from 'react-spring';
 import Emoji from './Emoji';
 
@@ -40,6 +41,15 @@ var projects = [{
     languages: "Shopify Design Challenge * Wireframe",
     imgSRC: projectShopifyChallenge,
     alt: "Shopify Design Challenge",
+    backgroundColour: "#fff5f5",
+    fontColour: "#cd3434",
+    disabled: false
+  },
+  {
+    link: "https://www.figma.com/proto/FDh53glbDfHlfv0DgGzCYN/LAB05CIS*2170?node-id=21%3A130&starting-point-node-id=2%3A4",
+    languages: "Figma Prototype (Sustainability App)",
+    imgSRC: figmaPrototype,
+    alt: "Figma Prototype. Sustainable Citizens",
     backgroundColour: "#fff5f5",
     fontColour: "#cd3434",
     disabled: false
