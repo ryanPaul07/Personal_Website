@@ -46,7 +46,7 @@ var projects = [{
     disabled: false
   },
   {
-    link: "https://www.figma.com/proto/FDh53glbDfHlfv0DgGzCYN/LAB05CIS*2170?node-id=21%3A130&starting-point-node-id=2%3A4",
+    link: "https://www.figma.com/proto/FDh53glbDfHlfv0DgGzCYN/LAB05CIS*2170?node-id=2%3A4&starting-point-node-id=2%3A4",
     languages: "Figma Prototype (Sustainability App)",
     imgSRC: figmaPrototype,
     alt: "Figma Prototype. Sustainable Citizens",
