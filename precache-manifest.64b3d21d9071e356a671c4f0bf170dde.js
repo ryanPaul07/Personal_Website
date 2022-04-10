@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65deb81869a73e594b206ede5dff2cf4",
+    "revision": "62887483722d9558dc4f2ecdc5b37995",
     "url": "/index.html"
   },
   {
-    "revision": "e0f6d9a47f8aa3853886",
+    "revision": "3a4eddf4be27d551400a",
     "url": "/static/css/main.d8c29aa0.chunk.css"
   },
   {
-    "revision": "7a1623d5d9e7c80594c9",
-    "url": "/static/js/2.b927cd61.chunk.js"
+    "revision": "a1f361febf9f9b6a321d",
+    "url": "/static/js/2.c035787c.chunk.js"
   },
   {
     "revision": "6ef57ea73f859e79d7f696b27898a6e5",
-    "url": "/static/js/2.b927cd61.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c035787c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0f6d9a47f8aa3853886",
-    "url": "/static/js/main.4f9ec6e6.chunk.js"
+    "revision": "3a4eddf4be27d551400a",
+    "url": "/static/js/main.f0af6a9e.chunk.js"
   },
   {
     "revision": "506adfa26ad76816c4a2",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dd95cef9b862e02a30915ee24f95d27b",
     "url": "/static/media/Discover-Tracks-App.dd95cef9.gif"
+  },
+  {
+    "revision": "b96e7d5ee33e567e8322a0fee73cf219",
+    "url": "/static/media/FigmaAppPrototype.b96e7d5e.png"
   },
   {
     "revision": "c255f65328961c599bf606fd418e4070",
