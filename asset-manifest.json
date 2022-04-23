@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8c29aa0.chunk.css",
-    "main.js": "/static/js/main.f0af6a9e.chunk.js",
-    "main.js.map": "/static/js/main.f0af6a9e.chunk.js.map",
+    "main.css": "/static/css/main.46c4478b.chunk.css",
+    "main.js": "/static/js/main.ad529500.chunk.js",
+    "main.js.map": "/static/js/main.ad529500.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c34c0ec6.js",
     "runtime-main.js.map": "/static/js/runtime-main.c34c0ec6.js.map",
     "static/js/2.c035787c.chunk.js": "/static/js/2.c035787c.chunk.js",
     "static/js/2.c035787c.chunk.js.map": "/static/js/2.c035787c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.64b3d21d9071e356a671c4f0bf170dde.js": "/precache-manifest.64b3d21d9071e356a671c4f0bf170dde.js",
+    "precache-manifest.669beebebc9092eac43721f1b1246db9.js": "/precache-manifest.669beebebc9092eac43721f1b1246db9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d8c29aa0.chunk.css.map": "/static/css/main.d8c29aa0.chunk.css.map",
+    "static/css/main.46c4478b.chunk.css.map": "/static/css/main.46c4478b.chunk.css.map",
     "static/js/2.c035787c.chunk.js.LICENSE.txt": "/static/js/2.c035787c.chunk.js.LICENSE.txt",
     "static/media/Discover-Tracks-App.gif": "/static/media/Discover-Tracks-App.dd95cef9.gif",
     "static/media/FigmaAppPrototype.png": "/static/media/FigmaAppPrototype.b96e7d5e.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.c34c0ec6.js",
     "static/js/2.c035787c.chunk.js",
-    "static/css/main.d8c29aa0.chunk.css",
-    "static/js/main.f0af6a9e.chunk.js"
+    "static/css/main.46c4478b.chunk.css",
+    "static/js/main.ad529500.chunk.js"
   ]
 }
