@@ -13,7 +13,7 @@ var projects = [{
     link: "https://github.com/ryanPaul07/MovieManager",
     languages: "REACT * BOOTSTRAP * omdbAPI",
     imgSRC: projectMovie,
-    alt: "Movie Search Project",
+    alt: "gif of my Movie Search Project website",
     backgroundColour: "#fff5f5",
     fontColour: "#cd3434",
     disabled: false
@@ -22,7 +22,7 @@ var projects = [{
     link: "https://github.com/ryanPaul07/discovertracks",
     languages: "REACT * Spotify API * Tumblr API * OAuth 2.0",
     imgSRC: projectDiscoverTracks,
-    alt: "Discover Tracks Project",
+    alt: "gif of my Discover Tracks Project website",
     backgroundColour: "#fff5f5",
     fontColour: "#cd3434",
     disabled: false
@@ -31,7 +31,7 @@ var projects = [{
     link: "https://www.behance.net/gallery/138564749/Flat-vs-Claymorphism-vs-Neumorphism?",
     languages: "Design * UI/UX * HCI",
     imgSRC: projectDesignComparison,
-    alt: "Flat vs Claymorphism vs Neumorphism",
+    alt: "gif of my Flat vs Claymorphism vs Neumorphism design study",
     backgroundColour: "#fff5f5",
     fontColour: "#cd3434",
     disabled: false
@@ -40,7 +40,7 @@ var projects = [{
     link: "https://www.behance.net/gallery/139533443/Shopify-Design-Challenge",
     languages: "Shopify Design Challenge * Wireframe",
     imgSRC: projectShopifyChallenge,
-    alt: "Shopify Design Challenge",
+    alt: "gif of my Shopify Design Challenge Case Study",
     backgroundColour: "#fff5f5",
     fontColour: "#cd3434",
     disabled: false
@@ -49,7 +49,7 @@ var projects = [{
     link: "https://www.figma.com/proto/FDh53glbDfHlfv0DgGzCYN/LAB05CIS*2170?node-id=2%3A4&starting-point-node-id=2%3A4",
     languages: "Figma Prototype (Sustainability App)",
     imgSRC: figmaPrototype,
-    alt: "Figma Prototype. Sustainable Citizens",
+    alt: "Home page image of my Sustainable Citizens Figma App design",
     backgroundColour: "#fff5f5",
     fontColour: "#cd3434",
     disabled: false
@@ -58,7 +58,7 @@ var projects = [{
     link: "",
     languages: <Emoji label="locked" symbol="🔒" text="Zoom Chat Design Case Study"/>,
     imgSRC: zoomChatCaseStudy,
-    alt: "Zoom Chat Design Case Study",
+    alt: "Landing page image of my Zoom Chat Design Case Study",
     backgroundColour: "#e9e3e3",
     fontColour: "#6a6565",
     disabled: true

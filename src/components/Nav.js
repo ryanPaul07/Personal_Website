@@ -85,7 +85,7 @@ function Nav(props) {
   }, [])
 
   return (
-    <div>
+    <div role="Navigation">
         {/* <Tabs value={value} onChange={handleChange} TabIndicatorProps={{ style: { backgroundColor: '#635ee7' }}}>
           <Tab value={0} label="Ryan Paul" to="/" disableRipple component={Link} />
           <Tab value={1} label="About" to="/about" disableRipple component={Link}/>
@@ -93,7 +93,7 @@ function Nav(props) {
           <Tab value={3} label="Contact" to="/contact" disableRipple component={Link}/>
         </Tabs> */}
 
-        <StyledTabs value={value} onChange={handleChange} >
+        <StyledTabs  value={value} onChange={handleChange} >
           <StyledTab label="Home" name="ryanpaul" to="/" component={Link} />
           {/* <StyledTab label="About" to="/about" component={Link}/> */}
           <StyledTab label="Projects" to="/projects" component={Link}/>
