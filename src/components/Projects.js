@@ -9,15 +9,18 @@ import figmaPrototype from '../resources/FigmaAppPrototype.png'
 import { animated, useSpring } from 'react-spring';
 import Emoji from './Emoji';
 
-var projects = [{
-    link: "https://github.com/ryanPaul07/MovieManager",
-    languages: "REACT * BOOTSTRAP * omdbAPI",
-    imgSRC: projectMovie,
-    alt: "gif of my Movie Search Project website",
-    backgroundColour: "#fff5f5",
-    fontColour: "#cd3434",
-    disabled: false
-  },
+// Archive
+// {
+//   link: "https://github.com/ryanPaul07/MovieManager",
+//   languages: "REACT * BOOTSTRAP * omdbAPI",
+//   imgSRC: projectMovie,
+//   alt: "gif of my Movie Search Project website",
+//   backgroundColour: "#fff5f5",
+//   fontColour: "#cd3434",
+//   disabled: false
+// }
+
+var projects = [
   {
     link: "https://github.com/ryanPaul07/discovertracks",
     languages: "REACT * Spotify API * Tumblr API * OAuth 2.0",
@@ -90,7 +93,7 @@ function Projects() {
         <p className="main-heading" style={{color: '#c11717'}}>Personal Projects</p>
         <div style={{margin: "20px 0 20px 0"}}>
           <p style={{color: '#cd3434', fontSize:"22px"}}>
-          Here are some of the projects I’ve worked on, however all my other projects are available on <a className="project-github-link" href="https://github.com/ryanPaul07" target="_blank" rel="noopener noreferrer" style={{color: '#c11717', fontFamily: 'IBM Plex Serif', fontWeight: "bold" ,textDecoration: 'none'}}>Github</a> 
+          Here are some of the projects I’ve worked on, however all my development projects are available on <a className="project-github-link" href="https://github.com/ryanPaul07" target="_blank" rel="noopener noreferrer" style={{color: '#c11717', fontFamily: 'IBM Plex Serif', fontWeight: "bold" ,textDecoration: 'none'}}>Github</a> 
           </p>
         </div>
         <animated.div style={styles}>
