@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Container } from '@material-ui/core';
-import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin, AiOutlineMail, AiOutlineBehanceSquare } from "react-icons/ai";
 import { Tile } from 'carbon-components-react';
 import image from '../resources/blueandyellow.png'
 import { animated, useSpring } from 'react-spring';
@@ -38,7 +38,9 @@ function Home() {
               <AiOutlineGithub className="icon-design" onClick={() => openInNewTab('https://github.com/ryanPaul07')}/>
               <AiOutlineDribbble className="icon-design" onClick={() => openInNewTab('https://dribbble.com/RyanPaul')}/>
               <AiOutlineLinkedin className="icon-design" onClick={() => openInNewTab('https://www.linkedin.com/in/ryan-paul07/')}/>
+              <AiOutlineBehanceSquare className="icon-design" onClick={() => openInNewTab('https://www.behance.net/ryanpaul13')}/>
               <AiOutlineMail className="icon-design" onClick={() => openInNewTab('mailto: rpaul06@uoguelph.ca')}/>
+              
             </div>
             
           </div>

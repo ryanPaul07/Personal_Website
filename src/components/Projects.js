@@ -32,7 +32,7 @@ var projects = [
   },
   {
     link: "https://www.behance.net/gallery/138564749/Flat-vs-Claymorphism-vs-Neumorphism?",
-    languages: "Design * UI/UX * HCI",
+    languages: "Evolution of Design * Design Systems Review",
     imgSRC: projectDesignComparison,
     alt: "gif of my Flat vs Claymorphism vs Neumorphism design study",
     backgroundColour: "#fff5f5",
@@ -41,7 +41,7 @@ var projects = [
   },
   {
     link: "https://www.behance.net/gallery/139533443/Shopify-Design-Challenge",
-    languages: "Shopify Design Challenge * Wireframe",
+    languages: "Shopify Design Challenge * Case Study",
     imgSRC: projectShopifyChallenge,
     alt: "gif of my Shopify Design Challenge Case Study",
     backgroundColour: "#fff5f5",
@@ -50,7 +50,7 @@ var projects = [
   },
   {
     link: "https://www.figma.com/proto/FDh53glbDfHlfv0DgGzCYN/LAB05CIS*2170?node-id=2%3A4&starting-point-node-id=2%3A4",
-    languages: "Figma Prototype (Sustainability App)",
+    languages: "Sustainability App * Figma Prototype",
     imgSRC: figmaPrototype,
     alt: "Home page image of my Sustainable Citizens Figma App design",
     backgroundColour: "#fff5f5",
@@ -59,7 +59,7 @@ var projects = [
   },
   {
     link: "",
-    languages: <Emoji label="locked" symbol="🔒" text="Zoom Chat Design Case Study"/>,
+    languages: <Emoji label="locked" symbol="🔒" text="Zoom Chat Design * Case Study"/>,
     imgSRC: zoomChatCaseStudy,
     alt: "Landing page image of my Zoom Chat Design Case Study",
     backgroundColour: "#e9e3e3",
