@@ -5,7 +5,8 @@ import projectDiscoverTracks from '../resources/Discover-Tracks-App.gif';
 import projectDesignComparison from '../resources/designComp.gif';
 import projectShopifyChallenge from '../resources/shopifyDesignChallenge.gif';
 import zoomChatCaseStudy from '../resources/ZoomChat.png';
-import figmaPrototype from '../resources/FigmaAppPrototype.png'
+import figmaPrototype from '../resources/FigmaAppPrototype.png';
+import dataVisualization from '../resources/DataVisualization.png';
 import { animated, useSpring } from 'react-spring';
 import Emoji from './Emoji';
 
@@ -21,6 +22,15 @@ import Emoji from './Emoji';
 // }
 
 var projects = [
+  {
+    link: "https://drive.google.com/drive/folders/11b9kbzx8ZXB0XUViekqYGpGMK3uUOlZp?usp=sharing",
+    languages: "ACM CHI papers Data Visualization * Research Paper",
+    imgSRC: dataVisualization,
+    alt: "First page of my research paper on Data Visualization using python",
+    backgroundColour: "#fff5f5",
+    fontColour: "#cd3434",
+    disabled: false
+  },
   {
     link: "https://github.com/ryanPaul07/discovertracks",
     languages: "REACT * Spotify API * Tumblr API * OAuth 2.0",
