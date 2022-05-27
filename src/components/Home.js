@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Container } from '@material-ui/core';
 import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin, AiOutlineMail, AiOutlineBehanceSquare } from "react-icons/ai";
-import { Tile } from 'carbon-components-react';
+// import { Tile } from 'carbon-components-react';
 import image from '../resources/blueandyellow.png'
 import { animated, useSpring } from 'react-spring';
 
@@ -28,7 +28,7 @@ function Home() {
         <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap", height: "60vh"}}>
           <div className="home-page-sub-heading">
             <div id="sub-text">
-            I’m a software engineer with experience in creating beautiful applications with a focus on accessibility. 
+            I’m a product designer & front-end engineer with experience in creating beautiful applications with a focus on accessibility. 
             I am passionate about using design and technology to create meaningful experiences for users which are impactful and goal oriented.
               {/* <Button variant="outlined" color="secondary">
                 Resume
@@ -45,10 +45,10 @@ function Home() {
             
           </div>
           <animated.div className="home-page-sub-image" style={styles}>
-              <Tile>
-                <img className="card-img-styling" src={image} alt="A art piece I created (blueandyellow)"/>
+              <div>
+                <img className="card-img-home-styling" src={image} alt="A art piece I created (blueandyellow)"/>
                 <p className="card-content-styling" style={{color: '#1c36ad'}}>blue and yellow - 2022</p>
-              </Tile>
+              </div>
           </animated.div>
         </div>
       </div>
