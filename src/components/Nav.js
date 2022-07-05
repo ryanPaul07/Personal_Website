@@ -12,7 +12,7 @@ import Tab from '@material-ui/core/Tab';
 // import { style } from '@material-ui/system';
 // import Typography from '@material-ui/core/Typography';
 
-let NavColor = ["#1c36ad","#491d8b","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
+let NavColor = ["#4295db","#491d8b","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
 
 // dark blue #1c36ad
 // dark red #c11717
@@ -40,6 +40,7 @@ function Nav(props) {
 
   const StyledTabs = withStyles({
     indicator: {
+      fontWeigth: 'bold',
       display: 'flex',
       justifyContent: 'center',
       backgroundColor: 'transparent',
@@ -47,14 +48,15 @@ function Nav(props) {
       '& > span': {
         maxWidth: 40,
         width: '100%',
-        backgroundColor: NavColor[value],
+        backgroundColor: NavColor[0],
       },
     },
   })((props) => <Tabs {...props} TabIndicatorProps={{ children: <span /> }} />);
   
   const StyledTab = withStyles((theme) => ({
     root: {
-      color: NavColor[value],
+      fontWeigth: 'bold',
+      color: NavColor[0],
       '&:focus': {
         opacity: 1,
       },
@@ -72,8 +74,8 @@ function Nav(props) {
       case 'projects':
         setValue(1);
         break;
-      case 'wtr':
-        setValue(3);
+      case 'about':
+        setValue(2);
         break;
       case 'contact':
         setValue(4);
@@ -94,9 +96,9 @@ function Nav(props) {
         </Tabs> */}
 
         <StyledTabs  value={value} onChange={handleChange} >
-          <StyledTab label="Home" name="ryanpaul" to="/" component={Link} />
-          {/* <StyledTab label="About" to="/about" component={Link}/> */}
-          <StyledTab label="Projects" to="/projects" component={Link}/>
+          <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Home" name="ryanpaul" to="/" component={Link} />
+          <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Projects" to="/projects" component={Link}/>
+          <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="About" to="/about" component={Link}/>
           {/* <StyledTab label="Design" to="/design" component={Link}/>
           <StyledTab label="WTR" to="/wtr" component={Link}/>
           <StyledTab label="Contact" to="/contact" component={Link}/> */}

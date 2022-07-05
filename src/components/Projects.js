@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Card, CardContent } from '@material-ui/core';
 // import projectMovie from '../resources/Movie-App.gif';
-import projectDiscoverTracks from '../resources/Discover-Tracks-App.gif';
-import projectDesignComparison from '../resources/designComp.gif';
-import projectShopifyChallenge from '../resources/shopifyDesignChallenge.gif';
-import zoomChatCaseStudy from '../resources/ZoomChatSystem.png';
-import figmaPrototype from '../resources/FigmaAppPrototype.png';
+import projectDiscoverTracks from '../resources/DiscoverTracks.png';
+import projectDesignComparison from '../resources/DesignSystem.png';
+import projectShopifyChallenge from '../resources/ShopifyDesign.png';
+import desktopOne from '../resources/Desktop - 1.png'
+import zoomChatCaseStudy from '../resources/ZoomDesign.png';
+import figmaPrototype from '../resources/FigmaDemo.png';
 import dataVisualization from '../resources/DataVisualization.png';
 import { animated, useSpring } from 'react-spring';
 import { Tag } from 'carbon-components-react';
@@ -42,7 +43,7 @@ var projects = [
   {
     link: "https://www.behance.net/gallery/144711585/Zoom-Chat-System-Case-Study?",
     summary: "A better zoom for students. Our case study looks at the shortcomings of the Zoom Chat systems for students and proposes changes which promotes more collaboration and engagement.",
-    languages: <Emoji label="locked" symbol="🔒" text="Zoom Chat Design * Case Study"/>,
+    languages: "Zoom Chat Design * Case Study",
     tags: ['Case Study', 'Survey', 'Interviews', 'Usability Testing', 'Competitive Analysis', 'Lean UX'],
     title: "Zoom Chat Design",
     imgSRC: zoomChatCaseStudy,
@@ -123,24 +124,24 @@ function Projects() {
   return (
     <Container fluid>
       <div className="page-styling">
-        <p className="main-heading" style={{color: '#491d8b'}}>My Projects</p>
+        <p className="main-heading" style={{color: 'black'}}>My Projects</p>
         <div style={{margin: "20px 0 20px 0"}}>
-          <p style={{color: '#50298a', fontSize:"22px"}}>
-          Here are some of the projects I’ve worked on, however all my development projects are available on <a className="project-github-link" href="https://github.com/ryanPaul07" target="_blank" rel="noopener noreferrer" style={{color: '#50298a', fontFamily: 'IBM Plex Serif', fontWeight: "bold" ,textDecoration: 'none'}}>Github</a> 
+          <p style={{ fontSize:"22px", color: "#666666"}}>
+          Here are some of the projects I’ve worked on, however all my development projects are available on <a className="project-github-link" href="https://github.com/ryanPaul07" target="_blank" rel="noopener noreferrer" style={{color: '#4295db', fontWeight: "bold" ,textDecoration: 'none'}}>Github</a> 
           </p>
         </div>
         <animated.div style={styles}>
           <div className="card-view" style={{justifyContent: 'center'}}>
             {
               projects.map((project, i)=> {
-                return <Card key={i} className="card-styling" style={{backgroundColor: project.backgroundColour, pointerEvents: project.disabled ? 'none' : 'auto'}} onClick={()=> showProject(project)}>
+                return <Card key={i} className="card-styling" style={{backgroundColor: "white", pointerEvents: project.disabled ? 'none' : 'auto'}} onClick={()=> showProject(project)}>
                   <CardContent className="card-style-big-view">
                     <img className="card-img-styling" style={{height: "100%"}} src={project.imgSRC} alt={project.alt}/>
                     <div style={{width: '100%', height: "100%"}}>
-                      <p className="card-content-styling large-view main-heading" style={{color: project.fontColour, height: '10%', fontSize: "1.3rem"}}><center>{project.languages}</center></p>
-                      <p className="card-content-styling small-view main-heading" style={{color: project.fontColour, height: '10%', paddingLeft: "18px", fontSize: "1.3rem"}}>{project.title}</p>
+                      <p className="card-content-styling large-view main-heading" style={{color: "black", height: '10%', fontSize: "1.3rem"}}><center>{project.languages}</center></p>
+                      <p className="card-content-styling small-view main-heading" style={{color: "black", height: '10%', paddingLeft: "18px", fontSize: "1.3rem"}}>{project.title}</p>
                       <div className="small-view" style={{overflow: "auto", height: "65%", padding: "15px 15px 15px 18px"}}>
-                        <p className="card-content-body-styling ">
+                        <p className="card-content-body-styling" >
                           {project.summary}
                         </p>
                           {/* {project.tags.map((tag) => {

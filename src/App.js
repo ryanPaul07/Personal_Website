@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
-// import About from './components/About';
+import Footer from './components/Footer'
+import About from './components/About';
 import Projects from './components/Projects';
 // import Contact from './components/Contact';
 import NotFound from './components/NotFound';
@@ -19,14 +20,15 @@ function App({history}) {
 
   return (
     <div  className={classes}>
-      { path == "" || path == "projects"
+      <div style={{minHeight: "100vh"}}>
+      { path == "" || path == "projects" || path == "about"
       ?
           <Router> 
             <Nav />
           <Switch>
             <Route path="/" exact component={Home}/>
-            {/* <Route path="/about" component={About} /> */}
             <Route path="/projects" component={Projects} />
+            <Route path="/about" component={About} />
             {/* <Route path="/design" component={Design} />
             <Route path="/wtr" component={WTR} />
             <Route path="/contact" component={Contact} /> */}
@@ -40,6 +42,8 @@ function App({history}) {
           </Switch>
         </Router>
       }
+      </div>
+      <Footer />
     </div>
   );
 }
