@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.70178325.chunk.css",
-    "main.js": "/static/js/main.9fc681a5.chunk.js",
-    "main.js.map": "/static/js/main.9fc681a5.chunk.js.map",
+    "main.css": "/static/css/main.d5ca67d7.chunk.css",
+    "main.js": "/static/js/main.4c407a3f.chunk.js",
+    "main.js.map": "/static/js/main.4c407a3f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c34c0ec6.js",
     "runtime-main.js.map": "/static/js/runtime-main.c34c0ec6.js.map",
-    "static/js/2.491d62f1.chunk.js": "/static/js/2.491d62f1.chunk.js",
-    "static/js/2.491d62f1.chunk.js.map": "/static/js/2.491d62f1.chunk.js.map",
+    "static/js/2.e8e2339b.chunk.js": "/static/js/2.e8e2339b.chunk.js",
+    "static/js/2.e8e2339b.chunk.js.map": "/static/js/2.e8e2339b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6dd3d7433b594c06e9ae6aa26734ad29.js": "/precache-manifest.6dd3d7433b594c06e9ae6aa26734ad29.js",
+    "precache-manifest.ed92037049590dd8553753cbb3c18103.js": "/precache-manifest.ed92037049590dd8553753cbb3c18103.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.70178325.chunk.css.map": "/static/css/main.70178325.chunk.css.map",
-    "static/js/2.491d62f1.chunk.js.LICENSE.txt": "/static/js/2.491d62f1.chunk.js.LICENSE.txt",
-    "static/media/DataVisualization.png": "/static/media/DataVisualization.00178675.png",
-    "static/media/Discover-Tracks-App.gif": "/static/media/Discover-Tracks-App.dd95cef9.gif",
-    "static/media/FigmaAppPrototype.png": "/static/media/FigmaAppPrototype.b96e7d5e.png",
-    "static/media/ZoomChatSystem.png": "/static/media/ZoomChatSystem.cdddcbc0.png",
-    "static/media/blueandyellow.png": "/static/media/blueandyellow.1521b6f1.png",
-    "static/media/designComp.gif": "/static/media/designComp.a17392f7.gif",
-    "static/media/shopifyDesignChallenge.gif": "/static/media/shopifyDesignChallenge.042dea3f.gif"
+    "static/css/main.d5ca67d7.chunk.css.map": "/static/css/main.d5ca67d7.chunk.css.map",
+    "static/js/2.e8e2339b.chunk.js.LICENSE.txt": "/static/js/2.e8e2339b.chunk.js.LICENSE.txt",
+    "static/media/DataVisualization.png": "/static/media/DataVisualization.1dffe7da.png",
+    "static/media/DesignSystem.png": "/static/media/DesignSystem.24a17961.png",
+    "static/media/Desktop - 1.png": "/static/media/Desktop - 1.ab0cdc0a.png",
+    "static/media/DiscoverTracks.png": "/static/media/DiscoverTracks.4d30df65.png",
+    "static/media/FigmaDemo.png": "/static/media/FigmaDemo.bdf2f886.png",
+    "static/media/IMG_1355 2.jpeg": "/static/media/IMG_1355 2.618c30ee.jpeg",
+    "static/media/ShopifyDesign.png": "/static/media/ShopifyDesign.76522bf5.png",
+    "static/media/ZoomDesign.png": "/static/media/ZoomDesign.8eeefe59.png",
+    "static/media/blueandyellow.png": "/static/media/blueandyellow.1521b6f1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c34c0ec6.js",
-    "static/js/2.491d62f1.chunk.js",
-    "static/css/main.70178325.chunk.css",
-    "static/js/main.9fc681a5.chunk.js"
+    "static/js/2.e8e2339b.chunk.js",
+    "static/css/main.d5ca67d7.chunk.css",
+    "static/js/main.4c407a3f.chunk.js"
   ]
 }
