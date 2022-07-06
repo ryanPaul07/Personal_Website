@@ -110,7 +110,7 @@ function Home() {
               projects.map((project, i)=> {
                 return <Card key={i} className="card-styling" style={{backgroundColor: "white", pointerEvents: project.disabled ? 'none' : 'auto'}} onClick={()=> showProject(project)}>
                   <CardContent className="card-style-big-view">
-                    <img className="card-img-styling" style={{height: "100%"}} src={project.imgSRC} alt={project.alt}/>
+                    <img className="card-img-styling" src={project.imgSRC} alt={project.alt}/>
                     <div style={{width: '100%', height: "100%"}}>
                       <p className="card-content-styling large-view main-heading" style={{color: "black", height: '10%', fontSize: "1.3rem"}}><center>{project.languages}</center></p>
                       <p className="card-content-styling small-view main-heading" style={{color: "black", height: '10%', paddingLeft: "18px", fontSize: "1.3rem"}}>{project.title}</p>
