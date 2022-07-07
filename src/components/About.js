@@ -21,7 +21,7 @@ return (
       <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
       <animated.div className="home-page-sub-image" style={styles}>
             <div>
-              <img className="card-img-home-styling" src={image} alt="A art piece I created (blueandyellow)"/>
+              <img className="card-img-home-styling" src={image} alt="Picture of me Smiling"/>
               <p className="card-content-styling" style={{color: '#666666'}}>Me enjoying life!</p>
             </div>
         </animated.div>

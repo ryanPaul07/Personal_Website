@@ -12,7 +12,7 @@ import Tab from '@material-ui/core/Tab';
 // import { style } from '@material-ui/system';
 // import Typography from '@material-ui/core/Typography';
 
-let NavColor = ["#4295db","#491d8b","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
+let NavColor = ["#1A5A8E","#4295db","#491d8b","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
 
 // dark blue #1c36ad
 // dark red #c11717

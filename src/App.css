@@ -252,7 +252,7 @@ hr.project-line {
   /* centered */
   .home-page-sub-heading {
     margin: 20px 0 15px 0;
-    color: #858585;
+    color: #666666;
     /* text-align: center; */
   }
 
@@ -294,8 +294,8 @@ hr.project-line {
   /* 50-50 */
   .home-page-sub-heading {
     margin: 20px 0 15px 0;
-    color: #858585;
-    width: 50%;
+    color: #666666;
+    /* width: 50%; */
   }
 
   .about-page-sub-heading {

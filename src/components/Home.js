@@ -71,7 +71,7 @@ function Home() {
               {/* <Button variant="outlined" color="secondary">
                 Resume
               </Button>*/}
-              <br />
+              {/* <br />
               <div style={{fontWeight: "400", fontSize: "18px"}}>
                 I recently completed my undergraduate research project which looks at data visualization for ACM CHI paper which you can view <a className="project-github-link" href="https://drive.google.com/drive/folders/11b9kbzx8ZXB0XUViekqYGpGMK3uUOlZp?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: '#4295db', fontWeight: "bold" ,textDecoration: 'none'}}>here</a>
                 . Also you can check
@@ -79,7 +79,7 @@ function Home() {
               </div>
               <div style={{margin: "10px 0px 0px 0px"}}>
                 <BsArrowDownCircle />
-              </div>
+              </div> */}
             </div>
             
             {/* <div id="home-page-icons">
@@ -93,12 +93,12 @@ function Home() {
             </div> */}
             
           </div>
-          <animated.div className="home-page-sub-image" style={styles}>
+          {/* <animated.div className="home-page-sub-image" style={styles}>
               <div>
                 <img className="card-img-home-styling" src={image} alt="A art piece I created (blueandyellow)"/>
                 <p className="card-content-styling" style={{color: '#666666'}}>blue and yellow - 2022</p>
               </div>
-          </animated.div>
+          </animated.div> */}
         </div>
       </div>
       <div style={{fontSize: "12px", color: "black", fontWeight: "800", letterSpacing: "2px"}}>
