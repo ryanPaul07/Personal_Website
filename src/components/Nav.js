@@ -75,16 +75,17 @@ function Nav(props) {
         setValue(1);
         break;
       case 'about':
+        setValue(3);
+        break;
+      case 'writing':
         setValue(2);
         break;
-      case 'contact':
-        setValue(4);
-        break;
       default:
-
+        if(page[page.length-2] == 'projects')
+          setValue(1);
     }
 
-  }, [])
+  },)
 
   return (
     <div role="Navigation" aria-label="Main">
@@ -98,6 +99,7 @@ function Nav(props) {
         <StyledTabs  value={value} onChange={handleChange} >
           <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Home" name="ryanpaul" to="/" component={Link} />
           <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Projects" to="/projects" component={Link}/>
+          <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Writing" to="/writing" component={Link}/>
           <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="About" to="/about" component={Link}/>
           {/* <StyledTab label="Design" to="/design" component={Link}/>
           <StyledTab label="WTR" to="/wtr" component={Link}/>

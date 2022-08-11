@@ -7,6 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 // import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import Writing from './components/Writing';
 // import WTR from './components/WTR';
 // import Design from './components/Design';
 
@@ -21,27 +22,22 @@ function App({history}) {
   return (
     <div  className={classes}>
       <div style={{minHeight: "100vh"}}>
-      { path == "" || path == "projects" || path == "about"
-      ?
+      {/* { path == "" || path == "projects" || path == "about" || path == "projects/DataVisualization"
+      ? */}
           <Router> 
             <Nav />
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/projects" component={Projects} />
+            <Route path="/writing" component={Writing} />
             <Route path="/about" component={About} />
+            <Route component={NotFound} />
+            {/* <Route path={`${path}/:projectId`} /> */}
             {/* <Route path="/design" component={Design} />
             <Route path="/wtr" component={WTR} />
             <Route path="/contact" component={Contact} /> */}
           </Switch>
         </Router>
-      : 
-        <Router>
-          <Switch>
-            <Route path="/404" component={NotFound} />
-            <Redirect from="*" to="/404"/>
-          </Switch>
-        </Router>
-      }
       </div>
       <Footer />
     </div>

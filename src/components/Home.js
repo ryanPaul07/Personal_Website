@@ -9,13 +9,18 @@ import projectShopifyChallenge from '../resources/ShopifyDesign.png';
 import zoomChatCaseStudy from '../resources/ZoomDesign.png';
 import { Card, CardContent } from '@material-ui/core';
 
+import {
+  Link,
+  useRouteMatch,
+} from "react-router-dom";
 
 var projects = [
   {
+    pageRoute: 'ZoomChatDesign',
     link: "https://www.behance.net/gallery/144711585/Zoom-Chat-System-Case-Study?",
-    summary: "A better zoom for students. Our case study looks at the shortcomings of the Zoom Chat systems for students and proposes changes which promotes more collaboration and engagement.",
+    summary: "A better zoom for students. My updated case study looks at the shortcomings of the Zoom Chat systems for students and proposes a new chat system which promotes more collaboration and engagement.",
     languages: "Zoom Chat Design * Case Study",
-    tags: ['Case Study', 'Survey', 'Interviews', 'Usability Testing', 'Competitive Analysis', 'Lean UX'],
+    tags: ['Case Study', 'UI/UX', 'High Fidelity', 'Lean UX'],
     title: "Zoom Chat Design",
     imgSRC: zoomChatCaseStudy,
     alt: "Landing page image of my Zoom Chat Design Case Study",
@@ -24,9 +29,10 @@ var projects = [
     disabled: false
   },
   {
+    pageRoute: 'ShopifyDesignChallenge',
     link: "https://www.behance.net/gallery/139533443/Shopify-Design-Challenge",
     summary: "Tackling an annoying problem with a fresh outlook. This project analyses how a parking meter which overlooks 6 parking spots would be designed for drivers and parking attendants.",
-    tags: ['Case Study', 'Research','Wireframe','Competitive Analysis', 'Low Fidelity Prototype'],
+    tags: ['Case Study','Wireframe','Competitive Analysis'],
     title: "Shopify Design Challenge",
     languages: "Shopify Design Challenge * Case Study",
     imgSRC: projectShopifyChallenge,
@@ -39,6 +45,7 @@ var projects = [
 
 
 function Home() {
+  let {path, url} = useRouteMatch()
 
   const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
@@ -63,10 +70,10 @@ function Home() {
         
         <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
           <div className="home-page-sub-heading">
-          <p className="main-heading" style={{color: "black", marginBottom: "25px"}}>Hi, I'm Ryan Paul!</p>
+          <p className="main-heading" style={{color: "black", marginBottom: "10px"}}>Hi, I'm Ryan ✨</p>
             <div id="sub-text">
               <div>
-              I am a product designer & front-end engineer deeply passionate about using design and technology to improve people's lives and make them more enjoyable!
+              I am a product designer & front-end engineer deeply passionate about using design and technology to create something amazing
               </div>
               {/* <Button variant="outlined" color="secondary">
                 Resume
@@ -101,14 +108,15 @@ function Home() {
           </animated.div> */}
         </div>
       </div>
-      <div style={{fontSize: "12px", color: "black", fontWeight: "800", letterSpacing: "2px"}}>
+      <div style={{fontSize: "12px", color: "#00a6b6", fontWeight: "800", letterSpacing: "2px"}}>
         FEATURED
       </div>
       <animated.div style={styles}>
           <div className="card-view" style={{justifyContent: 'center'}}>
             {
               projects.map((project, i)=> {
-                return <Card key={i} className="card-styling" style={{backgroundColor: "white", pointerEvents: project.disabled ? 'none' : 'auto'}} onClick={()=> showProject(project)}>
+                return <Card key={i} className="card-styling" style={{backgroundColor: "white", pointerEvents: project.disabled ? 'none' : 'auto'}}>
+                  <Link to={`projects/${project.pageRoute}`} style={{textDecoration: 'none'}}>
                   <CardContent className="card-style-big-view">
                     <img className="card-img-styling" src={project.imgSRC} alt={project.alt}/>
                     <div style={{width: '100%', height: "100%"}}>
@@ -137,6 +145,7 @@ function Home() {
                     </div>
                     
                   </CardContent>
+                  </Link>
                 </Card>
               })
             }

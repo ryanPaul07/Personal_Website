@@ -27,14 +27,14 @@ return (
         </animated.div>
         <div className="about-page-sub-heading">
           <div id="sub-text-about">
-          <p className="main-heading" style={{color: "black", marginBottom: "25px"}}>Hi Again!</p>
+          <p className="main-heading" style={{color: "black", marginBottom: "25px"}}>Hi Again! 👋🏼</p>
           <div style={{fontWeight: "500"}}>
-            I am a product designer based in Toronto, Canada. I care about putting humans first and solving for their needs through an iterative design process.  
+            I am a product designer/front-end developer based in Toronto, Canada. I care about putting humans first and solving for their needs by listening.  
           </div>
           <br />
           <div style={{fontWeight: "400", fontSize: "18px"}}>
             As a designer with a computer science background, I have the perfect skillset to act as a bridge between the design and the development team. I use my 
-            diverse background to make quick decisions which are goal oriented and mindful of technical constraints.
+            diverse background to make quick decisions which are mindful of technical constraints and prioritizes user needs.
           </div>
           <br />
           <div style={{fontWeight: "400", fontSize: "18px"}}>
