@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.b8833a0f.chunk.css",
-    "main.js": "/static/js/main.d2177862.chunk.js",
-    "main.js.map": "/static/js/main.d2177862.chunk.js.map",
+    "main.js": "/static/js/main.2ea9ca96.chunk.js",
+    "main.js.map": "/static/js/main.2ea9ca96.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c34c0ec6.js",
     "runtime-main.js.map": "/static/js/runtime-main.c34c0ec6.js.map",
-    "static/js/2.74ee5a0b.chunk.js": "/static/js/2.74ee5a0b.chunk.js",
-    "static/js/2.74ee5a0b.chunk.js.map": "/static/js/2.74ee5a0b.chunk.js.map",
+    "static/js/2.a014686d.chunk.js": "/static/js/2.a014686d.chunk.js",
+    "static/js/2.a014686d.chunk.js.map": "/static/js/2.a014686d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.47c4cd618aa62dd99451871806ceefda.js": "/precache-manifest.47c4cd618aa62dd99451871806ceefda.js",
+    "precache-manifest.009811424b037bc98dec5e27d6552cd5.js": "/precache-manifest.009811424b037bc98dec5e27d6552cd5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b8833a0f.chunk.css.map": "/static/css/main.b8833a0f.chunk.css.map",
-    "static/js/2.74ee5a0b.chunk.js.LICENSE.txt": "/static/js/2.74ee5a0b.chunk.js.LICENSE.txt",
+    "static/js/2.a014686d.chunk.js.LICENSE.txt": "/static/js/2.a014686d.chunk.js.LICENSE.txt",
     "static/media/DataVisualization.png": "/static/media/DataVisualization.1dffe7da.png",
     "static/media/DesignSystem.png": "/static/media/DesignSystem.24a17961.png",
     "static/media/Desktop - 1.png": "/static/media/Desktop - 1.ab0cdc0a.png",
     "static/media/DiscoverTracks.png": "/static/media/DiscoverTracks.4d30df65.png",
     "static/media/FigmaDemo.png": "/static/media/FigmaDemo.bdf2f886.png",
     "static/media/Font design.png": "/static/media/Font design.0629ed14.png",
-    "static/media/IMG_1355 2.jpeg": "/static/media/IMG_1355 2.618c30ee.jpeg",
+    "static/media/Hamburg, Germany.jpg": "/static/media/Hamburg, Germany.ab4af158.jpg",
     "static/media/Icon design.png": "/static/media/Icon design.e137ba4e.png",
     "static/media/MultiThread Prototype.mp4": "/static/media/MultiThread Prototype.98776f32.mp4",
     "static/media/Notification Prototype.mp4": "/static/media/Notification Prototype.dc948f2a.mp4",
@@ -41,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c34c0ec6.js",
-    "static/js/2.74ee5a0b.chunk.js",
+    "static/js/2.a014686d.chunk.js",
     "static/css/main.b8833a0f.chunk.css",
-    "static/js/main.d2177862.chunk.js"
+    "static/js/main.2ea9ca96.chunk.js"
   ]
 }
