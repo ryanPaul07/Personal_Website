@@ -28,19 +28,19 @@ var projects = [
     fontColour: "#491d8b",
     disabled: false
   },
-  {
-    pageRoute: 'ShopifyDesignChallenge',
-    link: "https://www.behance.net/gallery/139533443/Shopify-Design-Challenge",
-    summary: "Tackling an annoying problem with a fresh outlook. This project analyses how a parking meter which overlooks 6 parking spots would be designed for drivers and parking attendants.",
-    tags: ['Case Study','Wireframe','Competitive Analysis'],
-    title: "Shopify Design Challenge",
-    languages: "Shopify Design Challenge * Case Study",
-    imgSRC: projectShopifyChallenge,
-    alt: "gif of my Shopify Design Challenge Case Study",
-    backgroundColour: "#f5f2fc",
-    fontColour: "#491d8b",
-    disabled: false
-  }
+  // {
+  //   pageRoute: 'ShopifyDesignChallenge',
+  //   link: "https://www.behance.net/gallery/139533443/Shopify-Design-Challenge",
+  //   summary: "Tackling an annoying problem with a fresh outlook. This project analyses how a parking meter which overlooks 6 parking spots would be designed for drivers and parking attendants.",
+  //   tags: ['Case Study','Wireframe','Competitive Analysis'],
+  //   title: "Shopify Design Challenge",
+  //   languages: "Shopify Design Challenge * Case Study",
+  //   imgSRC: projectShopifyChallenge,
+  //   alt: "gif of my Shopify Design Challenge Case Study",
+  //   backgroundColour: "#f5f2fc",
+  //   fontColour: "#491d8b",
+  //   disabled: false
+  // }
 ]
 
 
@@ -73,7 +73,7 @@ function Home() {
           <p className="main-heading" style={{color: "black", marginBottom: "10px"}}>Hi, I'm Ryan ✨</p>
             <div id="sub-text">
               <div>
-              I am a product designer & front-end engineer deeply passionate about using design and technology to create something amazing
+              I am a passionate Masters student specializing in chatbots, committed to creating a more user-friendly and welcoming digital space for all.
               </div>
               {/* <Button variant="outlined" color="secondary">
                 Resume
@@ -108,7 +108,7 @@ function Home() {
           </animated.div> */}
         </div>
       </div>
-      <div style={{fontSize: "12px", color: "#00a6b6", fontWeight: "800", letterSpacing: "2px"}}>
+      <div style={{fontSize: "12px", color: "#414141", fontWeight: "800", textDecoration: "underline", letterSpacing: "2px", marginBottom: "20px"}}>
         FEATURED
       </div>
       <animated.div style={styles}>

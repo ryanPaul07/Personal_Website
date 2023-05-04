@@ -6,6 +6,14 @@ import { BsArrowUpRightSquare } from "react-icons/bs";
 var texts = [
   {
     number: "01",
+    link: "https://cui.acm.org/workshops/CHI2023/pdfs/paul_CUI@CHI_2023_Accessibility_Conversational_Agents.pdf",
+    summary: "Is it possible to use chatbots to motivate software developers to prioritize and value accessibility principles during software creation?",
+    title: "Improving Software Developer Awareness of Web Accessibility using CUIs",
+    backgroundColour: "#f5f2fc",
+    fontColour: "#491d8b",
+  },
+  {
+    number: "02",
     link: "https://drive.google.com/drive/folders/11b9kbzx8ZXB0XUViekqYGpGMK3uUOlZp?usp=sharing",
     summary: "A research paper on helping other researchers. A data visualization tool to allow researchers to quickly gather historical information on their research topic.",
     title: "ACM CHI papers Data Visualization",
@@ -13,7 +21,7 @@ var texts = [
     fontColour: "#491d8b",
   },
   {
-    number: "02",
+    number: "03",
     link: "https://www.behance.net/gallery/138564749/Flat-vs-Claymorphism-vs-Neumorphism?",
     summary: "Each design system has a unique story it tells. The choices made, and the decisions taken are all based on the experience the design system is trying to create for the user.",
     title: "Evolution of Design Systems",

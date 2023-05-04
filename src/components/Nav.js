@@ -12,7 +12,7 @@ import Tab from '@material-ui/core/Tab';
 // import { style } from '@material-ui/system';
 // import Typography from '@material-ui/core/Typography';
 
-let NavColor = ["#1A5A8E","#4295db","#491d8b","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
+let NavColor = ["#3E3E3E","#1A5A8E","#4295db","#491d8b","#c11717","#FFE24D","#a35fe6"]; //green #85d582, yellow #e6cd5f // ,"#85d582" about styling, // green "#85d582"
 
 // dark blue #1c36ad
 // dark red #c11717
@@ -72,17 +72,17 @@ function Nav(props) {
         setValue(0);
         break;
       case 'projects':
-        setValue(1);
+        setValue(0);
         break;
       case 'about':
-        setValue(3);
+        setValue(2);
         break;
       case 'writing':
-        setValue(2);
+        setValue(1);
         break;
       default:
         if(page[page.length-2] == 'projects')
-          setValue(1);
+          setValue(0);
     }
 
   },)
@@ -98,7 +98,7 @@ function Nav(props) {
 
         <StyledTabs  value={value} onChange={handleChange} >
           <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Home" name="ryanpaul" to="/" component={Link} />
-          <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Projects" to="/projects" component={Link}/>
+          {/* <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Projects" to="/projects" component={Link}/> */}
           <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="Writing" to="/writing" component={Link}/>
           <StyledTab style={{fontWeight: "bold", textTransform: 'none'}} label="About" to="/about" component={Link}/>
           {/* <StyledTab label="Design" to="/design" component={Link}/>
