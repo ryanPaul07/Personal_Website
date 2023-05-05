@@ -73,7 +73,7 @@ function Home() {
           <p className="main-heading" style={{color: "black", marginBottom: "10px"}}>Hi, I'm Ryan ✨</p>
             <div id="sub-text">
               <div>
-              I am a passionate Masters student specializing in chatbots, committed to creating a more user-friendly and welcoming digital space for all.
+              I am a passionate Masters student specializing in Human-computer interaction, committed to creating a more user-friendly and welcoming digital space for all.
               </div>
               {/* <Button variant="outlined" color="secondary">
                 Resume
