@@ -4,6 +4,7 @@ import { Container } from '@material-ui/core';
 import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin, AiOutlineMail, AiOutlineBehanceSquare } from "react-icons/ai";
 // import { Tile } from 'carbon-components-react';
 import image from '../resources/Hamburg, Germany.jpg'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { animated, useSpring } from 'react-spring';
 
 function About() {
@@ -21,7 +22,7 @@ return (
       <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
       <animated.div className="home-page-sub-image" style={styles}>
             <div>
-              <img className="card-img-home-styling" src={image} alt="Picture of me Smiling in Hamburg, Germany"/>
+              <LazyLoadImage className="card-img-home-styling" src={image} alt="Picture of me Smiling in Hamburg, Germany"/>
               <p className="card-content-styling" style={{color: '#666666'}}>Hamburg, Germany - my latest adventure!</p>
             </div>
         </animated.div>
@@ -34,12 +35,12 @@ return (
           <br />
           <div style={{fontWeight: "400", fontSize: "18px"}}>
           As a current Masters student in Computer Science, specializing in Human Computer Interaction and Accessibility, I possess a distinct 
-          skill set that effectively bridges the gap between research design and development. By leveraging my diverse background, I strive to make 
+          skill set that effectively bridges the gap between research, design and development. By leveraging my diverse background, I strive to make 
           well-informed decisions that account for technical limitations while prioritizing user-centered design principles.
           </div>
           <br />
           <div style={{fontWeight: "400", fontSize: "18px"}}>
-          When I'm not tinkering with design projects, you'll often find me immersing myself in TV shows or movies. I really enjoy stories that keep me interested with their mysteries and surprises.
+          When I'm not tinkering with design projects, you'll often find me immersing myself in TV shows or movies.
           </div>
           <br />
           <br />

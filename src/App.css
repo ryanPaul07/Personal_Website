@@ -18,6 +18,11 @@ body {
 
 /* #f4e4c9 #fffcf7*/
 
+/* .lazyLoadDimension {
+  max-width: 100%;
+  height: auto;
+} */
+
 nav {
   display: flex;
   justify-content: space-around;
