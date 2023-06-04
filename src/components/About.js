@@ -12,43 +12,37 @@ function About() {
 const styles = useSpring({
   config: { duration: 300 },
   delay: 500,
-  from: { opacity: 0, marginTop: 20},
+  from: { opacity: 0, marginTop: 5},
   to: { opacity: 1, marginTop: 0 },
 })
 
 return (
   <Container fluid>
     <div className="page-styling" id="home-page">
-      <div style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
-      <animated.div className="home-page-sub-image" style={styles}>
-            <div>
-              <LazyLoadImage className="card-img-home-styling" src={image} alt="Picture of me Smiling in Hamburg, Germany"/>
-              <p className="card-content-styling" style={{color: '#666666'}}>Hamburg, Germany - my latest adventure!</p>
-            </div>
-        </animated.div>
+      <div className="flexContainer" style={{display: "flex", justifyContent: "space-between", flexWrap: "wrap"}}>
         <div className="about-page-sub-heading">
           <div id="sub-text-about">
-          <p className="main-heading" style={{color: "black", marginBottom: "25px"}}>Hi Again! 👋🏼</p>
-          <div style={{fontWeight: "500"}}>
+          <p className="main-heading" style={{color: "black", marginBottom: "25px"}}>Hi Again, I'm Ryan 👋🏼</p>
+          <div style={{fontWeight: "500", fontSize: "18px"}}>
             I prioritize simple solutions for complex tasks in my designs, utilizing a human-centred approach.   
           </div>
           <br />
-          <div style={{fontWeight: "400", fontSize: "18px"}}>
+          <div style={{fontWeight: "500", fontSize: "18px"}}>
           As a current Masters student in Computer Science, specializing in Human Computer Interaction and Accessibility, I possess a distinct 
           skill set that effectively bridges the gap between research, design and development. By leveraging my diverse background, I strive to make 
           well-informed decisions that account for technical limitations while prioritizing user-centered design principles.
           </div>
           <br />
-          <div style={{fontWeight: "400", fontSize: "18px"}}>
+          <div style={{fontWeight: "500", fontSize: "18px"}}>
           When I'm not tinkering with design projects, you'll often find me immersing myself in TV shows or movies.
           </div>
           <br />
           <br />
-          <div style={{fontWeight: "600", fontSize: "20px", color:"black"}}>
+          <div style={{fontWeight: "600", fontSize: "19px", color:"black"}}>
             Here are some Awards I have won!
           </div>
           <br />
-          <div style={{fontWeight: "400", fontSize: "18px"}}>
+          <div style={{fontWeight: "500", fontSize: "18px"}}>
           
               <b>CHI 2023 Accepted Paper:</b> Selected as one of 26 position papers for the <a href="https://cui.acm.org/workshops/CHI2023/" target="_blank" rel="noopener noreferrer" style={{color: '#666666', textDecoration: 'underline', fontStyle: 'italic'}}>CUI@CHI Workshop</a> at the ACM CHI 2023 Conference.
               <br/>
@@ -60,6 +54,12 @@ return (
           </div>
           </div>
         </div>
+        <animated.div className="home-page-sub-image" style={styles}>
+            <div>
+              <LazyLoadImage className="card-img-home-styling" src={image} alt="Picture of me Smiling in Hamburg, Germany"/>
+              <p className="card-content-styling" style={{color: '#666666'}}>Hamburg, Germany - my latest adventure!</p>
+            </div>
+        </animated.div>
       </div>
     </div>
   </Container>

@@ -21,7 +21,7 @@ function App({history}) {
 
   return (
     <div  className={classes}>
-      <div style={{minHeight: "100vh"}}>
+      <div style={{minHeight: "95vh"}}>
       {/* { path == "" || path == "projects" || path == "about" || path == "projects/DataVisualization"
       ? */}
           <Router> 

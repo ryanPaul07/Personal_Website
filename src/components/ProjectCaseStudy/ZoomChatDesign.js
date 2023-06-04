@@ -64,7 +64,7 @@ function ZoomChatDesign() {
       <TopicHeading topicName="Expectations" />
       <TopicDescription topicDescription="What this project is and What to expect."/>
       <TopicBody topicBody="This case study was a milestone project for our CIS 4300 Human Computer Interaction class. We were tasked with finding ways to improve Zoom, to make it more helpful for university students. This was our main prompt and we were expected to create a solution which wouldn't distract from the current zoom design language." />
-      <br />
+      
       <TopicBodyHighlight topicBodyHighlight="This case study shows my updated approach to our original submission." />
       <Divider />
       <TopicHeading topicName="Initial Survey" />

@@ -108,7 +108,7 @@ function Home() {
           </animated.div> */}
         </div>
       </div>
-      <div style={{fontSize: "12px", color: "#414141", fontWeight: "800", textDecoration: "underline", letterSpacing: "2px", marginBottom: "20px"}}>
+      <div style={{fontSize: "12px", color: "black", fontWeight: "800", letterSpacing: "2px", marginBottom: "15px"}}>
         FEATURED
       </div>
       <animated.div style={styles}>

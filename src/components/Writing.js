@@ -46,11 +46,15 @@ function Writing() {
   return (
     <Container fluid>
       <div className="page-styling">
+        
+      <div className="home-page-sub-heading">
         <p className="main-heading" style={{color: 'black'}}>Writing 🖋️</p>
           <div style={{margin: "20px 0 20px 0"}}>
             <p style={{ fontSize:"22px", color: "#666666"}}>
               Here you will find some of my ideas and beliefs about design and technology.    
             </p>
+          </div>
+          </div>
           </div>
             <animated.div style={styles}>
               <div className="card-view" >
@@ -59,7 +63,7 @@ function Writing() {
                     return <Card key={i} className="card-styling" style={{backgroundColor: "white", minWidth: "20rem", maxWidth: "20rem", height: "16rem"}} onClick={()=> showProject(project)}>
                       <CardContent className="card-style-big-view">
                         <div style={{display: "flex", flexDirection: "column"}}>
-                          <div className="card-content-styling" style={{display: "flex", flexDirection: "column", color: "black", fontSize: "1.1rem", paddingBottom: "10px"}}>
+                          <div className="card-content-styling-writing" style={{display: "flex", flexDirection: "column", color: "black", fontSize: "1.1rem", paddingBottom: "10px"}}>
                             <div style={{fontSize: "1.8rem", marginBottom: "12px"}}>{project.number}</div>
                             <div>{project.title}</div>
                             {/* <BsArrowUpRightSquare size={30} className="icon-design"/> */}
@@ -72,7 +76,6 @@ function Writing() {
                 }
               </div>
             </animated.div>
-      </div>
     </Container>
   );
 } 
