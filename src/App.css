@@ -155,10 +155,10 @@ nav {
 }
 
 
-.card-styling:hover {
+/* .card-styling:hover {
   top: -10px;
   cursor: pointer;
-}
+} */
 
 .project-github-link:hover {
   text-decoration: none;

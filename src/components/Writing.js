@@ -14,7 +14,7 @@ var texts = [
   },
   {
     number: "02",
-    link: "https://drive.google.com/drive/folders/11b9kbzx8ZXB0XUViekqYGpGMK3uUOlZp?usp=sharing",
+    link: "https://drive.google.com/file/d/1rDjSibLYEAnD9alYE-V7gadPUI4Np-1a/view?usp=drive_link",
     summary: "A research paper on helping other researchers. A data visualization tool to allow researchers to quickly gather historical information on their research topic.",
     title: "ACM CHI papers Data Visualization",
     backgroundColour: "#f5f2fc",
@@ -22,6 +22,14 @@ var texts = [
   },
   {
     number: "03",
+    link: "https://drive.google.com/file/d/1WAF3ZDXYS1233rFJNVwETZEAfrJyR7DH/view?usp=drive_link",
+    summary: "A collaborative paper analyzing the usability and accessibility of Student Information Systems (SIS) as platforrms for connecting educational institutions with students, gathered through qualitative analysis and student experiences",
+    title: "Evaluation of SIS",
+    backgroundColour: "#f5f2fc",
+    fontColour: "#491d8b",
+  },
+  {
+    number: "04",
     link: "https://www.behance.net/gallery/138564749/Flat-vs-Claymorphism-vs-Neumorphism?",
     summary: "Each design system has a unique story it tells. The choices made, and the decisions taken are all based on the experience the design system is trying to create for the user.",
     title: "Evolution of Design Systems",
@@ -60,7 +68,7 @@ function Writing() {
               <div className="card-view" >
                 {
                   texts.map((project, i)=> {
-                    return <Card key={i} className="card-styling" style={{backgroundColor: "white", minWidth: "20rem", maxWidth: "20rem", height: "16rem"}} onClick={()=> showProject(project)}>
+                    return <Card key={i} className="card-styling" style={{backgroundColor: "white", minWidth: "20rem", maxWidth: "20rem", height: "16rem", cursor: "pointer"}} onClick={()=> showProject(project)}>
                       <CardContent className="card-style-big-view">
                         <div style={{display: "flex", flexDirection: "column"}}>
                           <div className="card-content-styling-writing" style={{display: "flex", flexDirection: "column", color: "black", fontSize: "1.1rem", paddingBottom: "10px"}}>
