@@ -13,6 +13,7 @@ import { Tag } from 'carbon-components-react';
 import Emoji from './Emoji';
 import Project from './Project';
 import NotFound from './NotFound';
+import assets24 from '../resources/Assets2024.png';
 
 import {
   Switch,
@@ -45,6 +46,19 @@ var projects = [
     title: "Zoom Chat Design",
     imgSRC: zoomChatCaseStudy,
     alt: "Landing page image of my Zoom Chat Design Case Study",
+    backgroundColour: "#f5f2fc",
+    fontColour: "#491d8b",
+    disabled: false
+  },
+  {
+    pageRoute: 'AssetsReDesign',
+    link: "",
+    summary: "How do you discover new music? With this project I wanted to take two of my hobbies, music and anime and join them into one. This web app creates a curated list of songs and anime visualizations to make music discovery more interesting.",
+    tags: ['UI/UX', 'High Fidelity', 'Personas'],
+    title: "Assets Refresh",
+    languages: "ASSETS 2024",
+    imgSRC: assets24,
+    alt: "Banner text: Assets 2024. The 26th International ACM SIGACCESS Conference on Computers and Accessibility. Below text, an image of Assets 2024 conference website home page",
     backgroundColour: "#f5f2fc",
     fontColour: "#491d8b",
     disabled: false

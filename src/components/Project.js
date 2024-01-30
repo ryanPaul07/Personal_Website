@@ -9,7 +9,7 @@ import {
 import ZoomChatDesign from './ProjectCaseStudy/ZoomChatDesign.js';
 import ParkingMeterDesignChallenge from './ProjectCaseStudy/ParkingMeterDesignChallenge.js';
 import dataVisualization from '../resources/DataVisualization.png';
-import DiscoverTracksPage from './ProjectCaseStudy/DiscoverTracksPage';
+import AssetsReDesignPage from './ProjectCaseStudy/AssetsReDesignPage';
 
 
 function Project() {
@@ -19,7 +19,7 @@ function Project() {
   useEffect(() => {
     console.log(projectId)
 
-    if(projectId == "ZoomChatDesign" || projectId == "DiscoverTracksApp" || projectId == "ShopifyDesignChallenge")
+    if(projectId == "ZoomChatDesign" || projectId == "AssetsReDesign" || projectId == "ShopifyDesignChallenge")
       setValid(true);
     else {
       setValid(false);
@@ -30,7 +30,7 @@ function Project() {
     switch(projectId) {
       case "ZoomChatDesign":   return <ZoomChatDesign />;
       case "ShopifyDesignChallenge":  return <ParkingMeterDesignChallenge />;
-      case "DiscoverTracksApp": return <DiscoverTracksPage />;
+      case "AssetsReDesign": return <AssetsReDesignPage />;
       default: return null
     }
   }

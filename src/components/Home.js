@@ -7,7 +7,9 @@ import image from '../resources/blueandyellow.png'
 import { animated, useSpring } from 'react-spring';
 import projectShopifyChallenge from '../resources/ShopifyDesign.png';
 import zoomChatCaseStudy from '../resources/ZoomDesign.png';
+import zoomFinalDesignPrototype from '../components/ProjectAssets/ZoomChatDesign/Zoom Final Design Prototype.png';
 import { Card, CardContent } from '@material-ui/core';
+import assets24 from '../resources/Assets2024.png';
 
 import {
   Link,
@@ -20,14 +22,41 @@ var projects = [
     link: "https://www.behance.net/gallery/144711585/Zoom-Chat-System-Case-Study?",
     summary: "A better zoom for students. My updated case study looks at the shortcomings of the Zoom Chat systems for students and proposes a new chat system which promotes more collaboration and engagement.",
     languages: "Zoom Chat Design * Case Study",
-    tags: ['Case Study', 'UI/UX', 'High Fidelity', 'Lean UX'],
+    tags: [],
     title: "Zoom Chat Design",
-    imgSRC: zoomChatCaseStudy,
+    imgSRC: zoomFinalDesignPrototype,
     alt: "Landing page image of my Zoom Chat Design Case Study",
     backgroundColour: "#f5f2fc",
     fontColour: "#491d8b",
     disabled: false
   },
+  {
+    pageRoute: 'AssetsReDesign',
+    link: "",
+    summary: "Designing the Assets Conference website with a focus on simplicity, accessibility, intuitiveness, and user-driven design.",
+    tags: [],
+    title: "Revamping the Assets Conference Website",
+    languages: "ASSETS Conference * Case Study",
+    imgSRC: assets24,
+    alt: "Banner text: Assets 2024. The 26th International ACM SIGACCESS Conference on Computers and Accessibility. Below text, an image of Assets 2024 conference website home page",
+    backgroundColour: "#f5f2fc",
+    fontColour: "#491d8b",
+    disabled: false
+  }
+  
+  // {
+  //   pageRoute: 'ZoomChatDesign',
+  //   link: "https://www.behance.net/gallery/144711585/Zoom-Chat-System-Case-Study?",
+  //   summary: "A better zoom for students. My updated case study looks at the shortcomings of the Zoom Chat systems for students and proposes a new chat system which promotes more collaboration and engagement.",
+  //   languages: "Zoom Chat Design * Case Study",
+  //   tags: ['Case Study', 'UI/UX', 'High Fidelity', 'Lean UX'],
+  //   title: "Zoom Chat Design",
+  //   imgSRC: zoomChatCaseStudy,
+  //   alt: "Landing page image of my Zoom Chat Design Case Study",
+  //   backgroundColour: "#f5f2fc",
+  //   fontColour: "#491d8b",
+  //   disabled: false
+  // }
   // {
   //   pageRoute: 'ShopifyDesignChallenge',
   //   link: "https://www.behance.net/gallery/139533443/Shopify-Design-Challenge",

@@ -17,7 +17,7 @@ function Footer() {
           </div>
           <AiOutlineDribbble style={{color: "#3E3E3E"}} className="icon-design" onClick={() => openInNewTab('https://dribbble.com/RyanPaul')}/>
           <AiOutlineBehanceSquare style={{color: "#3E3E3E"}} className="icon-design" onClick={() => openInNewTab('https://www.behance.net/ryanpaul13')}/>
-          <AiOutlineMail style={{color: "#3E3E3E"}} className="icon-design" onClick={() => openInNewTab('mailto: rpaul06@uoguelph.ca')}/>
+          <AiOutlineMail style={{color: "#3E3E3E"}} className="icon-design" onClick={() => openInNewTab('mailto: paulryan229@gmail.com')}/>
           <AiOutlineGithub style={{color: "#3E3E3E"}} className="icon-design" onClick={() => openInNewTab('https://github.com/ryanPaul07')}/>
           <AiOutlineLinkedin style={{color: "#3E3E3E"}} className="icon-design" onClick={() => openInNewTab('https://www.linkedin.com/in/ryan-paul07/')}/>
         </div>
